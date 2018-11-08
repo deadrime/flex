@@ -1,0 +1,26 @@
+{
+  "name": "my-flux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "tslint --project './'",
+    "lint-fix": "tslint --project './' --fix"
+  },
+  "author": "deadrime",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/lodash": "^4.14.118",
+    "@types/node": "^10.12.2",
+    "lodash": "^4.17.11"
+  }
+}
